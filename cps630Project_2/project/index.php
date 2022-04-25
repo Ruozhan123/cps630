@@ -15,8 +15,6 @@ $result = mysqli_query($db,$query);
 
     <section class="jumbotron text-center">
       <div class="container">
-        <h1>CPS 630 Project - Smart Customer Services</h1>
-        <p class="lead text-muted">Group Members: Sanveer Gill, Devrajsinh Chudasama, Ruozhan Li</p>
 		<?php if ($_SESSION["isLoggedIn"] == false)
 			{
 				echo '<p style="font-size: 30px; color: DodgerBlue">Sign in to get discounted prices on all items!</p>';
