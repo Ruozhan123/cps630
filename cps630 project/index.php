@@ -102,8 +102,6 @@ $result=mysqli_query($db,$query);
 
     <section class="jumbotron text-center">
       <div class="container">
-        <h1>CPS 630 Project</h1>
-        <p class="lead text-muted">Group Members: Sanveer Gill, Devrajsinh Chudasama, Ruozhan Li</p>
       </div>
       <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
