@@ -1,0 +1,39 @@
+.postimages {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.b {
+  position: fixed;
+  bottom: 30%;
+  right: 3px;
+  height: 500px;
+  width: 300px;
+  border: 3px solid #8f8e8e;
+}
+#search_result {
+  width: 50%;
+  float: right;
+}
+.product_image {
+  width: 50%;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

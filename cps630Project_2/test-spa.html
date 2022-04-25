@@ -1,0 +1,61 @@
+<html ng-app="myApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  </head>
+
+  <body>
+		<body>
+			<script type="text/ng-template" id="pages/home.html">
+			<h1>Home</h1>
+			</script>
+
+      <script type="text/ng-template" id="pages/aboutus.html">
+      <h1>AboutUs</h1>
+      </script>
+
+      <script type="text/ng-template" id="pages/contactus.html">
+			<h1>ContactUs</h1>
+			</script>
+
+			<script type="text/ng-template" id="pages/signup.html">
+			<h1>Signup</h1>
+			</script>
+
+			<script type="text/ng-template" id="pages/signin.html">
+			<h1>Signin</h1>
+			</script>
+
+      <script type="text/ng-template" id="pages/checkout.html">
+			<h1>Checkout</h1>
+			</script>
+
+      <script type="text/ng-template" id="pages/payment.html">
+			<h1>Payment</h1>
+			</script>
+
+      <script type="text/ng-template" id="pages/reviews.html">
+			<h1>Reviews</h1>
+      </script>
+
+      <script type="text/ng-template" id="pages/cart.html">
+			<h1>Cart</h1>
+      </script>
+
+
+	<a href="#/!">Home</a>
+    <a href="#!/aboutus">aboutus</a>
+    <a href="#!/contactus">contactus</a>
+    <a href="#!/signup">signup</a>
+    <a href="#!/signin">signin</a>
+    <a href="#!/checkout">checkout</a>
+    <a href="#!/payment">payment</a>
+    <a href="#!/review">review</a>
+    <a href="#!/cart">cart</a>
+
+    <div ng-view></div>
+
+    <script src="app.js"></script>
+  </body>
+  </body>
+</html>
